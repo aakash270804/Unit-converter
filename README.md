@@ -1,15 +1,15 @@
 # Ether_value
 The EtherValue Solidity contract tracks the amount of Ether received in Wei (the smallest denomination of Ether) and provides functions to convert and retrieve the value in Wei, Gwei, and Ether.
 
-##Description
+## Description
 The EtherValue contract is a simple Ethereum smart contract that:
 
 Stores the total value of Ether sent to the contract in Wei.
 Allows users to retrieve the total value in Wei, Gwei, or Ether through different getter functions.
 The contract uses the receive() function to accept Ether, and it automatically updates the stored valueInWei whenever Ether is sent to the contract.
 
-##Getting Started
-###Installing
+## Getting Started
+### Installing
 You can compile and deploy this contract using an Ethereum development environment like Remix.
 
 Open the Remix IDE.
@@ -41,7 +41,7 @@ Copy code
           return valueInWei / 1 gwei;
     }
     }
-##Executing Program
+## Executing Program
 Compile the contract using the Solidity compiler in Remix. Ensure the compiler version is set to 0.8.26 or a compatible version.
 
 Deploy the contract using the "Deploy & Run Transactions" tab.
@@ -52,13 +52,13 @@ Send Ether: The contract uses the receive() function to accept Ether. Send Ether
 getValueInWei(): Retrieves the total Ether received in Wei.
 getValueInEther(): Retrieves the total Ether received in Ether.
 getValueInGwei(): Retrieves the total Ether received in Gwei.
-##Help
+## Help
 To send Ether, you can use Remix's "Deploy & Run Transactions" interface. Use the value box in the "Deploy & Run" panel to send Ether in Wei.
 Ensure you're using the correct Ether denominations when sending Ether (1 Ether = 10^18 Wei).
 Make sure the Solidity compiler version is 0.8.26 or a compatible one.
-##Authors
+## Authors
 Aakash Raj 
 akashraj2708@gmail.com
-##License
+## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
